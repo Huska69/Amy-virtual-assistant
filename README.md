@@ -1,13 +1,15 @@
-# Amy-virtual-assistant
-"Amy" general purpose virtual assistant for everyone. 
-Hey I'm CSIE Sophomore student. 
-Self learning python developer. I used some open pip for this project.  
-I'm trying to make general purpose virtual assistant. Its not ai, its just a bunch of functions that is able to understand some command. 
-So far there is functions that Amy can do: 
-1. Telling you time. /if 'time' is in your input./
-2. Open browser and play music in youtube. /if play in your input./
-3. tell you information about someone or something. /if 'who is' or 'what is' in your input./
-4. tell you a joke. /if 'joke' is in your input./
+# Amy-virtual-assistant"Amy" is a general-purpose virtual assistant for everyone.
+Hey, I'm a CSIE sophomore student.Self-learning Python developer For this project, I used open source software.
+I'm trying to make a general-purpose virtual assistant. It's not AI; it's just a bunch of functions that are able to understand some commands.
+So far, there are functions that Amy can do:
 
-Please tell me more interesting functions that I can make. 
-Any request, collab, discussion is open. 
+  1. If you enter "time," it will tell you the time.
+  2. Launch your browser and start listening to music on YouTube; if play is your input,
+  3. tell you information about someone or something if you say "who is" or "what is" in your input.
+  4. tell you a joke, if "joke" is in your input.
+  
+Please tell me about any other interesting functions that I could create.
+I'm obsessed with creating virtual assistants like "Alexa" or "Siri."I haven't started learning AI. 
+So we began with the easiest.After that, I want to write it in C without using any pre-built libraries.
+Any collaboration or discussion request is welcome.
+ 
