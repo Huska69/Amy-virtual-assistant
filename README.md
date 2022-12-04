@@ -1,7 +1,7 @@
 # Amy-virtual-assistant
 "Amy" general purpose virtual assistant for everyone. 
 Hey I'm CSIE Sophomore student. 
-Self learning python. 
+Self learning python developer. I used some open pip for this project.  
 I'm trying to make general purpose virtual assistant. Its not ai, its just a bunch of functions that is able to understand some command. 
 So far there is functions that Amy can do: 
 1. Telling you time. /if 'time' is in your input./
