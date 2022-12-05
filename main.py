@@ -3,7 +3,6 @@ import pyttsx3
 import pywhatkit
 import datetime
 import wikipedia
-import python_weather
 import pyjokes
 
 listener = sr.Recognizer()
@@ -11,11 +10,14 @@ engine = pyttsx3.init()
 voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[1].id)
 
+
 def say(text):
     engine.say(text)
     engine.runAndWait()
-def get_command():
 
+
+# noinspection PyBroadException
+def get_command():
     try:
         with sr.Microphone() as source:
             print('Say something please.')
@@ -25,9 +27,10 @@ def get_command():
             if 'amy' in command:
                 command = command.replace('amy', '')
                 say(command)
-    except:
+    except Exception:
         pass
     return command
+
 
 def get_amy():
     command = get_command()
@@ -51,7 +54,7 @@ def get_amy():
         print(information)
         say(information)
     elif 'who are you' in command:
-        say('Who do you think I am dumbie i am Amy')
+        say('Who do you think I am Amy you idiot')
     elif 'I love you' in command:
         say('Sorry Im in relationship with this Nitro five laptop')
     elif 'joke' in command:
@@ -60,6 +63,7 @@ def get_amy():
         say(joke)
     else:
         say('please tell me something again.I dont understand')
+
 
 while True:
     get_amy()
